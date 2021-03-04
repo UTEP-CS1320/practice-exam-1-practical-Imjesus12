@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "P1 - 1",
+      "setup": "clang -pthread -lm -o main main.c",
+      "run": "./main",
+      "input": "1\r\n2120\r\n4220",
+      "output": "TRUE",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "P1 - 2",
+      "setup": "clang -pthread -lm -o main main.c",
+      "run": "./main",
+      "input": "1\r\n102\r\n112",
+      "output": "FALSE",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "P2 - 1",
+      "setup": "clang -pthread -lm -o main main.c",
+      "run": "./main",
+      "input": "2\r\n7239",
+      "output": "1st Prize!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "P2 - 2",
+      "setup": "clang -pthread -lm -o main main.c",
+      "run": "./main",
+      "input": "2\r\n7030",
+      "output": "3rd Prize",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "P3",
+      "setup": "clang -pthread -lm -o main main.c",
+      "run": "./main",
+      "input": "3\r\n100A",
+      "output": "4106",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
