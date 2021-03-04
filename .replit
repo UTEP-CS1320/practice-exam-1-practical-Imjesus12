@@ -1,0 +1,2 @@
+language = "c"
+run = "rm -f main ; clang -pthread -lm -o main main.c; ./main"
